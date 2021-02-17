@@ -1,0 +1,19 @@
+<section class="main">
+  <section class="form-container">
+    <header class="header">My Thoughts</header>
+    <button (click)="toggleForm()" class="add-thought">Add Thought</button>
+    <app-post-form
+      (submitted)="onSubmit($event)"
+      *ngIf="showForm"
+    ></app-post-form>
+  </section>
+  <section class="list-container">
+    <ol>
+      <app-post
+        *ngFor="let post of myPosts; index as i"
+        [postObject]="post"
+        (deleted)="onDelete(i)"
+      ></app-post>
+    </ol>
+  </section>
+</section>

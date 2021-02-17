@@ -1,0 +1,33 @@
+.form-container {
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.add-button {
+  width: 460px;
+  padding: 5px;
+  background-color: #b1ddea;
+}
+
+.title {
+  margin: 5px;
+  font-size: 18px;
+}
+
+.title-input {
+  width: 250px;
+  height: 25px;
+}
+
+.thought {
+  margin: 5px;
+  font-size: 18px;
+}
+
+.thought-input {
+  width: 250px;
+  height: 25px;
+}

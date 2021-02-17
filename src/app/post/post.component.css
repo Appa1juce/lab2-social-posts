@@ -1,0 +1,23 @@
+.list-container {
+  display: flex;
+  position: relative;
+  width: 400px;
+}
+
+.delete-button {
+  position: absolute;
+  right: 0;
+  /* background: none;
+  border-radius: 10px;
+  color: red;
+  border: none;
+  /* border: 1px solid turquoise; */
+}
+
+.title {
+  margin: 10px;
+}
+
+.thought {
+  margin: 10px;
+}
